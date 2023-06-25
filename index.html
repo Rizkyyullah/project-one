@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Background</title>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="assets/style/style.css" />
+
+    <!-- Google Fonts - Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="loadSound()">
+    <section>
+      <div class="dedaunan">
+        <div class="set">
+          <div><img src="assets/img/daun-1.png" alt="Gambar Daun" /></div>
+          <div><img src="assets/img/daun-2.png" alt="Gambar Daun" /></div>
+          <div><img src="assets/img/daun-3.png" alt="Gambar Daun" /></div>
+          <div><img src="assets/img/daun-4.png" alt="Gambar Daun" /></div>
+          <div><img src="assets/img/daun-1.png" alt="Gambar Daun" /></div>
+          <div><img src="assets/img/daun-2.png" alt="Gambar Daun" /></div>
+          <div><img src="assets/img/daun-3.png" alt="Gambar Daun" /></div>
+          <div><img src="assets/img/daun-4.png" alt="Gambar Daun" /></div>
+        </div>
+      </div>
+      <img src="assets/img/bg.jpg" alt="Background Musim Gugur" class="bg" />
+      <img
+        src="assets/img/girl.png"
+        alt="Gambar Wanita Bersepeda"
+        class="girl"
+      />
+      <div class="glass">
+        <div class="paper">
+          <blockquote cite="Dari Shodiq"><q class="quotes">Aku memafkan supaya aku tenang, aku melupakan supaya aku tersenyum, aku diam karena tak ingin berdebat, dan aku bersabar karena keyakinanku pada ALLAH SWT tanpa Batas</q></blockquote>
+        </div>
+      </div>
+      <img src="assets/img/pohon.png" alt="Gambar Pohon" class="pohon" />
+    </section>
+  <script>
+    function loadSound() {
+      const audio = new Audio('assets/song/song.mp3')
+      audio.play()
+    }
+  </script>
+  </body>
+</html>
